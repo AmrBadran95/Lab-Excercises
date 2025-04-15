@@ -35,6 +35,7 @@ You're working on a team project. You've added a new feature in a branch called 
 
 List the steps one by one.
  1- git checkout -b feature/login
+<<<<<<< HEAD
  2- git add .
  3- git commit -m "commit message"
  4- git push origin feature/login
@@ -42,6 +43,9 @@ List the steps one by one.
  6- compare changes.
  7- Accept pull request and merge.
 
+=======
+ 2- git push origin feature/login
+>>>>>>> e896f6d59d7fb63b206dcde681feb3d7e32e0c99
 ---
 
 ### Section 4: Best Practices
