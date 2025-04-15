@@ -9,6 +9,10 @@
 - Create a new folder, navigate to it in your terminal.
 - Initialize a Git repository using `git init`.
 
+cd "Folder Name"
+$ git --version
+git version 2.49.0.windows.1
+
 ---
 
 ### 📌 Exercise 2: First Commit
@@ -20,6 +24,42 @@
 - Add the file using `git add hello.txt`
 - Commit it using `git commit -m "Initial commit with hello.txt"`
 
+1- git status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Exercise 2.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2- git add hello.txt
+3- git status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hello.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Exercise 2.md
+
+4- git commit -m "Initial commit with hello.txt"
+
+[main 1f81f03] Initial commit with hello.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
 ---
 
 ### 📌 Exercise 3: Using .gitignore
@@ -49,6 +89,7 @@
 
 - Create a new repository on GitHub.
 - Link it to your local repo:
+
   ```bash
   git remote add origin https://github.com/your-username/your-repo.git
   git push -u origin main
@@ -73,13 +114,16 @@
 
 - Make 3 small changes to your code/files.
 - For each, write a commit message using this format:
+
   ```
   [Type] Short description
 
   - What changed?
   - Why it was necessary?
   ```
+
   Example:
+
   ```
   [Fix] Correct typo in README
 
