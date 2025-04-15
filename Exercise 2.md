@@ -81,6 +81,7 @@ Changes not staged for commit:
 - Switch back to `main` and merge the new branch: `git merge feature-readme`
 - Handle any merge conflicts if they occur.
 
+Solution can be found in the remote Repo
 ---
 
 ### 📌 Exercise 5: Connect to GitHub
@@ -95,6 +96,7 @@ Changes not staged for commit:
   git push -u origin main
   ```
 
+Solution can be found in the remote Repo
 ---
 
 ### 📌 Exercise 6: Pull Requests Simulation
@@ -131,6 +133,9 @@ Changes not staged for commit:
   - Improves professionalism and clarity.
   ```
 
+1- git commit -m "Solved Exercise 1.md"
+2- git commit -m "Solved Exercise 1 in Exercise 2.md"
+3- git commit -m "Solved Exercise 2 in Exercise 2.md"
 ---
 
 **💬 Bonus Challenge:** Create a `.bash_aliases` or `.zshrc` file to define aliases for common Git commands like `gs` for `git status`, `gc` for `git commit`, etc.
