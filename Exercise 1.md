@@ -35,7 +35,13 @@ You're working on a team project. You've added a new feature in a branch called 
 
 List the steps one by one.
  1- git checkout -b feature/login
- 2- git push origin feature/login
+ 2- git add .
+ 3- git commit -m "commit message"
+ 4- git push origin feature/login
+ 5- from remote repo open pull request.
+ 6- compare changes.
+ 7- Accept pull request and merge.
+
 ---
 
 ### Section 4: Best Practices
