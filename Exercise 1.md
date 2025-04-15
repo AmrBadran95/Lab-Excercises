@@ -34,7 +34,8 @@
 You're working on a team project. You've added a new feature in a branch called `feature/login`. What are the steps to push it to GitHub and open a pull request?
 
 List the steps one by one.
-
+ 1- git checkout -b feature/login
+ 2- git push origin feature/login
 ---
 
 ### Section 4: Best Practices
