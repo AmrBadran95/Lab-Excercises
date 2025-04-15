@@ -55,6 +55,8 @@ Write a clear and meaningful commit message for the following scenario:
 Bad Example: `update`  
 Your Turn:
 
+-git commit -m "Added a responsive navbar"
+
 ---
 
 **Submission:**
