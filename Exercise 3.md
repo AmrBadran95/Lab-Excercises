@@ -65,9 +65,12 @@ d6523cf Created file 2.txt
 2ad9de0 Created file 1.txt
 
 4- git revert 559ed64
+5- git log --oneline
 
-[main 7617f13] Revert "Break layout"
- 1 file changed, 1 insertion(+), 3 deletions(-)
+7617f13 (HEAD -> main) Revert "Break layout"
+559ed64 Break layout
+7d47368 Created file 2.txt and file 3.txt in one commmit
+2ad9de0 Created file 1.txt
 
 ---
 
@@ -87,6 +90,32 @@ d6523cf Created file 2.txt
   
 - Run `git status` before and after stashing to observe changes.
 
+////////////////////////
+
+1- git stash
+2- git checkout -b feature/stash
+3- git stash pop
+
+On branch feature/stash
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file 2.txt
+        modified:   file 3.txt
+
+4-git status
+
+On branch feature/stash
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file 2.txt
+        modified:   file 3.txt
+
+5-git add "file 2.txt"
+6-git add "file 3.txt"
+7-git commit -m "stash poped"
+8-git push origin feature/stash
 ---
 
 ### 📌 Exercise 11: Cherry-Pick Challenge
