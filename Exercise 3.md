@@ -132,7 +132,24 @@ Changes not staged for commit:
   git log --oneline
   
   to confirm the commit appears on both branches.
-  
+
+  ///////////////////////////////////////
+
+1-git checkout -b feature-a
+2-git add "cherry-pick.txt"
+3-git commit -m "feature-a made this change"
+4-git log --oneline
+
+b0235a1 (HEAD -> feature-a) feature-a made this change
+d931936 (origin/main, origin/HEAD, main) Merge pull request #4 from AmrBadran95/E6-collab\
+
+5-git checkout main
+6-git cherry-pick b0235a1
+7-git log --oneline
+
+0e5263e (HEAD -> main) feature-a made this change
+d931936 (origin/main, origin/HEAD) Merge pull request #4 from AmrBadran95/E6-collab
+
 ### ✅ Submission Guidelines
 
 - Create a GitHub repo named `git-homework`
