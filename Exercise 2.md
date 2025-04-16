@@ -96,7 +96,7 @@ Solution can be found in the remote Repo
   git push -u origin main
   ```
 
-Solution can be found in the remote Repo
+Solution is the repo
 ---
 
 ### 📌 Exercise 6: Pull Requests Simulation
@@ -107,6 +107,8 @@ Solution can be found in the remote Repo
 - Create a new repo.
 - You Both Clone it, make a change, push it, then open a Pull Request.
 - Review and approve each other's PR.
+
+Solution can be found in the remote Repo "E6 collab.txt"
 
 ---
 
